@@ -1,0 +1,38 @@
+# prod
+dist/
+
+# dev
+.yarn/
+!.yarn/releases
+.vscode/*
+!.vscode/launch.json
+!.vscode/*.code-snippets
+.idea/workspace.xml
+.idea/usage.statistics.xml
+.idea/shelf
+
+# deps
+node_modules/
+.wrangler
+
+# env
+.env
+.env.production
+.dev.vars
+
+# logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# misc
+.DS_Store
+public*/
+bun.lock
+*.local.jsonc
+.zcode
+# Personal / WIP notes under docs; keep published markdown tracked
+docs/0.next.md
